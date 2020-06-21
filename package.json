@@ -1,0 +1,24 @@
+{
+  "name": "proyecttime",
+  "version": "1.0.0",
+  "description": "Time ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server/server.js"
+  },
+  "author": "Sergio Esteban Delgado",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "awilix": "^4.2.6",
+    "express": "^4.17.1",
+    "next": "^9.4.4",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tcomb": "^3.2.29"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
